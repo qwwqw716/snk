@@ -22,7 +22,7 @@ jobs:
           github_user_name: qwwqw716
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?color_snake=%2339d353&color_dots=%2330363d,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/github-snake-dark.svg?color_snake=%2339d353&color_dots=%23484f58,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Publish SVGs
         uses: crazy-max/ghaction-github-pages@v4
