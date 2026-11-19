@@ -21,7 +21,7 @@ jobs:
         with:
           github_user_name: qwwqw716
           outputs: |
-            dist/github-snake.svg
+            dist/github-snake.svg?color_dots=%23d1d5db,%239be9a8,%2340c463,%2330a14e,%23216e39
             dist/github-snake-dark.svg?color_snake=%2339d353&color_dots=%23484f58,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Publish SVGs
